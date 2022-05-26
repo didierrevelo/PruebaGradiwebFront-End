@@ -1,0 +1,178 @@
+/* color input checkbox red */
+.round {
+  position: relative;
+  margin-top: 17px;
+  margin-left: 15px;
+}
+
+.round label {
+  background-color: red;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked+label {
+  border: 2px solid #3701fc;
+}
+
+/* color input checkbox black */
+.r {
+  position: relative;
+  margin-top: 17px;
+  margin-left: 15px;
+}
+
+.r label {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.r label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.r input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.r input[type="checkbox"]:checked+label {
+  border: 2px solid #6101fc;
+}
+
+/* size input checkbox  */
+.width {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.width label {
+  border: 1px solid #ccc;
+  height: 25px;
+  left: 10;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.width input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.width input[type="checkbox"]:checked+label {
+  border: 2px solid #070707;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  flex-direction: row;
+}
+
+/* .num-block.skin {
+  position: relative;
+} */
+
+.skin .num-in {
+  width: 100px;
+  float: left;
+	vertical-align: bottom;
+	position: relative;
+	border: 1px solid #EEEFF1;
+	border-radius: 3px;
+  margin-bottom: 10px;
+  height : 40px;
+}
+
+.skin .num-in:hover {
+	border: 1px solid #4687FF;
+	-webkit-box-shadow: 0px 0px 7px 0px rgba(70, 135, 255, 0.75);
+	-moz-box-shadow:    0px 0px 7px 0px rgba(70, 135, 255, 0.75);
+	box-shadow:         0px 0px 7px 0px rgba(70, 135, 255, 0.75);
+}
+
+.skin .num-in button {
+	font-size: 16px;
+	width: 20px;
+	display: block;
+	line-height: 41px;
+}
+
+.skin .num-in button.minus {
+	float: left;
+	text-align: right;
+  margin-right: 1px;
+  border: none;
+  background-color: #fff;
+  height: 39.45px;}
+
+.skin .num-in input {
+  margin-top: 4px;
+  border: none;
+	height: 32px;
+	width: 48px;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	/* -webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important; */
+  position:  absolute;
+}
+
+.skin .num-in button.plus {
+	float: right;
+	text-align: center;
+  margin-left: 20 px;
+  border: none;
+  background-color: #fff;
+  height: 39.45px;
+}
