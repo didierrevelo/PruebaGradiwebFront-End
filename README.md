@@ -39,7 +39,6 @@ https://graditest-store.myshopify.com/products/free-trainer-3-mmw.js
 * [Documentation](#documentation)
 * [Descriptions](#descriptions)
 * [Authors](#authors)
-* [License](#license)
 * [Acknowledgment](#Acknowledgment)
 
 
